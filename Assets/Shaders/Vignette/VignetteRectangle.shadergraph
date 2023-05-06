@@ -322,8 +322,8 @@
     "m_ObjectId": "16917098495443abaf101bf7be7a25a8",
     "m_Title": "UV DistanceField",
     "m_Position": {
-        "x": -2907.0,
-        "y": -1541.0001220703125
+        "x": -2767.0,
+        "y": -1539.0
     }
 }
 
@@ -603,8 +603,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2823.0,
-        "y": -1198.0,
+        "x": -2680.0,
+        "y": -1196.0,
         "width": 166.0,
         "height": 100.0
     },
@@ -1169,10 +1169,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2845.000244140625,
-            "y": -1482.0001220703125,
-            "width": 208.0,
-            "height": 278.0001220703125
+            "x": -2702.0,
+            "y": -1480.0,
+            "width": 197.0,
+            "height": 94.0
         }
     },
     "m_Slots": [
@@ -1233,9 +1233,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2525.000244140625,
-            "y": -1482.0,
-            "width": 208.000244140625,
+            "x": -2382.0,
+            "y": -1480.0,
+            "width": 208.0,
             "height": 302.0
         }
     },
@@ -1275,10 +1275,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2298.0,
-            "y": -1482.0,
-            "width": 208.0,
-            "height": 278.0
+            "x": -2155.0,
+            "y": -1480.0,
+            "width": 128.0,
+            "height": 94.0
         }
     },
     "m_Slots": [
@@ -1408,8 +1408,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2885.000244140625,
-            "y": -1369.0001220703125,
+            "x": -2742.0,
+            "y": -1367.0,
             "width": 237.0,
             "height": 94.0
         }
@@ -1446,8 +1446,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2816.0,
-            "y": -1160.0,
+            "x": -2673.0,
+            "y": -1158.0,
             "width": 208.0,
             "height": 127.0
         }
