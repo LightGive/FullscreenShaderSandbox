@@ -141,7 +141,7 @@
     },
     "m_Path": "Sub Graphs",
     "m_GraphPrecision": 1,
-    "m_PreviewMode": 2,
+    "m_PreviewMode": 0,
     "m_OutputNode": {
         "m_Id": "6c1f6e4a3a144ff688d5accaa8c73e0f"
     },
@@ -404,8 +404,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -480.0000305175781,
-            "y": -18.0,
+            "x": -485.0,
+            "y": 95.0,
             "width": 88.0,
             "height": 101.0
         }
