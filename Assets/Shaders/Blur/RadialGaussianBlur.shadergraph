@@ -259,20 +259,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "c04b8de758c0417094f5d82f1cd62940"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "33a2f54046024253b51133f688efe4e9"
-                },
-                "m_SlotId": 7
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "c5ad3fa19ae94c31a29f6f01f72b60fa"
                 },
                 "m_SlotId": 0
@@ -355,7 +341,7 @@
         },
         "preventRotation": false
     },
-    "m_Path": "Shader Graphs",
+    "m_Path": "FullscreenEffects/Blur",
     "m_GraphPrecision": 1,
     "m_PreviewMode": 2,
     "m_OutputNode": {
@@ -498,7 +484,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.5,
+    "m_Value": 8.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -703,21 +689,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "326066e690b042b7ac47fee40e5ed1c5",
-    "m_Id": 7,
-    "m_DisplayName": "noBlurArea",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "noBlurArea",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ClampNode",
     "m_ObjectId": "3287084d8f454b06923eae6fc4c257f2",
     "m_Group": {
@@ -775,7 +746,7 @@
             "x": -340.0,
             "y": 200.0,
             "width": 263.0,
-            "height": 470.0
+            "height": 446.0
         }
     },
     "m_Slots": [
@@ -796,9 +767,6 @@
         },
         {
             "m_Id": "6f6b471744ca4f04b55479a7447af013"
-        },
-        {
-            "m_Id": "326066e690b042b7ac47fee40e5ed1c5"
         },
         {
             "m_Id": "8c89102024e74169a5ddad77690ab79a"

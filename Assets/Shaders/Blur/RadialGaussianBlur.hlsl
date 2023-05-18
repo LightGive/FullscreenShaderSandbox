@@ -13,7 +13,6 @@ void RadialGaussianBlur_float(
 	float dispersion,
 	float2 scaleOffsetInterval,
 	float2 scaleCenter,
-	float noBlurArea,
 	float2 uv,
 	out float4 result) 
 {

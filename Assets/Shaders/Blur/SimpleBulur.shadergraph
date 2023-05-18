@@ -1153,7 +1153,7 @@
         },
         "preventRotation": false
     },
-    "m_Path": "FullscreenEffects",
+    "m_Path": "FullscreenEffects/Blur",
     "m_GraphPrecision": 1,
     "m_PreviewMode": 2,
     "m_OutputNode": {
@@ -1854,7 +1854,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 2.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
