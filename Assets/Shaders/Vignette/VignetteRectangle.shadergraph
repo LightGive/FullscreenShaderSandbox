@@ -53,9 +53,6 @@
             "m_Id": "d15da4909a454ca3b9638f572c9859d5"
         },
         {
-            "m_Id": "fc8e30c1b79f4f1c89ea0d4db294f157"
-        },
-        {
             "m_Id": "cf88cf2495404b868e0e9de801064fb5"
         },
         {
@@ -70,11 +67,7 @@
             "m_Id": "16917098495443abaf101bf7be7a25a8"
         }
     ],
-    "m_StickyNoteDatas": [
-        {
-            "m_Id": "4831a5ade5e14acd96ed88494dbea49c"
-        }
-    ],
+    "m_StickyNoteDatas": [],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -245,7 +238,7 @@
         },
         "preventRotation": false
     },
-    "m_Path": "FullscreenEffects",
+    "m_Path": "FullscreenEffects/Vignette",
     "m_GraphPrecision": 1,
     "m_PreviewMode": 2,
     "m_OutputNode": {
@@ -308,7 +301,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.5,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -440,7 +433,7 @@
             "referenceName": "RECTANGLEASPECT"
         }
     ],
-    "m_Value": 0,
+    "m_Value": 1,
     "m_IsEditable": true
 }
 
@@ -595,26 +588,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
-    "m_ObjectId": "4831a5ade5e14acd96ed88494dbea49c",
-    "m_Title": "Todo",
-    "m_Content": "Round rectangleを実装する",
-    "m_TextSize": 0,
-    "m_Theme": 0,
-    "m_Position": {
-        "serializedVersion": "2",
-        "x": -2680.0,
-        "y": -1196.0,
-        "width": 166.0,
-        "height": 100.0
-    },
-    "m_Group": {
-        "m_Id": "16917098495443abaf101bf7be7a25a8"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "4a142c54990142b1aa981b485d109274",
     "m_Group": {
@@ -671,31 +644,6 @@
         "z": 0.0,
         "w": 0.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "545f28989aa946ce91d921bce24626eb",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_Labels": []
 }
 
 {
@@ -884,7 +832,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.30000001192092898,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -1432,50 +1380,6 @@
     "m_PropertyIds": [],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ColorNode",
-    "m_ObjectId": "fc8e30c1b79f4f1c89ea0d4db294f157",
-    "m_Group": {
-        "m_Id": "16917098495443abaf101bf7be7a25a8"
-    },
-    "m_Name": "Color",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -2673.0,
-            "y": -1158.0,
-            "width": 208.0,
-            "height": 127.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "545f28989aa946ce91d921bce24626eb"
-        }
-    ],
-    "synonyms": [
-        "rgba"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Color": {
-        "color": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0,
-            "a": 1.0
-        },
-        "mode": 0
-    }
 }
 
 {
