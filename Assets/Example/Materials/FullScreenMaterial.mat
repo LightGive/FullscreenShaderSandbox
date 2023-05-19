@@ -8,69 +8,24 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FullScreenMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: d01e0896dd07143419df3e6304f8d80a,
+  m_Shader: {fileID: -6465566751694194690, guid: f44f4ff9fdea54181a23a79138049fa9,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _SHAPETYPE_RECTANGLE
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _Debug
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _Bayer:
-        m_Texture: {fileID: 2800000, guid: 3c416833860824c1fb8a87149e2b4f1a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_5a5dbc0a282341c1a6126fb517141891_Texture_1_Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ce1612d9a6aa4d1b90260f05124616b0_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 3042b019b052942a1baf7aa49d7ca6bb, type: 3}
+        m_Texture: {fileID: 2800000, guid: edde4fee6b60e4187a711e2bfce94417, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -87,59 +42,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BaseGlitchWidth: 0
-    - _Brightness: 0
-    - _BumpScale: 1
-    - _CenterMask: 0.5
-    - _ColorOffset: 0.1
-    - _Cutoff: 0.5
-    - _Debug: 0
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlitchHeightOffset: 0
-    - _GlitchHeightSize: 0
-    - _GlitchHeightSmooth: 0.5
-    - _GlitchHeightTiling: 100
-    - _GlitchLoop: 1
-    - _GlitchOffset: 0
-    - _GlitchSize: 0.5
-    - _GlitchSmooth: 0
-    - _GlitchTile: 0
-    - _GlitchTiling: 2
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Height: 288
-    - _ISROUND: 1
-    - _ISROUNDED: 1
-    - _ISROUNDNESS: 0
-    - _Lerp: 0
-    - _LineAmount: 0.351
-    - _LineCount: 100
-    - _LineSize: 2000
-    - _Metallic: 0
-    - _Mode: 0
-    - _NoiseAlpha: 0.1
-    - _NoiseLineSpeed: 0.1
-    - _OcclusionStrength: 1
-    - _Offset: 0.071
-    - _Parallax: 0.02
-    - _ROUNDTYPE: 0
-    - _Radius: 0
-    - _Random: 0
-    - _Round: 0
-    - _Roundness: 0
-    - _SHAPETYPE: 0
-    - _Smooth: 0.716
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _Speed: 10
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
+    - _ColorOffset: -0.28
+    - _Height: 162.55
+    - _Lerp: 1
+    - _Offset: 0.16
+    - _Random: 0.704
+    - _SHAPETYPE: 1
+    - _Smooth: 0.486
+    - _Speed: 111.61
+    - _TextureSize: 8
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Resolution: {r: 128, g: 72, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Resolution: {r: 100, g: 50, b: 0, a: 0}
   m_BuildTextureStacks: []
