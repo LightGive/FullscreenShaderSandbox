@@ -252,7 +252,7 @@
         },
         "preventRotation": false
     },
-    "m_Path": "FullscreenEffects",
+    "m_Path": "FullscreenEffects/Pixel",
     "m_GraphPrecision": 1,
     "m_PreviewMode": 2,
     "m_OutputNode": {
