@@ -17,7 +17,7 @@ void DirectionGaussianBlur_float(
 	out float4 result) 
 {
 	float3 fc = 0.0;
-	for(int i =0; i<int(sampleCount); i++)
+	for(int i = 0; i < int(sampleCount); i++)
 	{
 		float w = GetGaussianWeight(i,dispersion);
 		float2 offset = direction * offsetInterval * (i+1);
