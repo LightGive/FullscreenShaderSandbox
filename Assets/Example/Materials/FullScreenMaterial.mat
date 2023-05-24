@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FullScreenMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: ac2d78d2aac9a41ffbdd2c925233903d,
+  m_Shader: {fileID: -6465566751694194690, guid: 05182c16d3a594e5e80c20f156ece365,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,18 +42,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Angle: 0
     - _Brightness: 0.037
     - _ColorOffset: -1
+    - _Dispersion: 1
+    - _Float: 360
     - _FrameJumpCount: 14.21
     - _FrameJumpTime: 4.16
     - _FrameTime: 0.1
     - _Height: 346.5
-    - _Interval: 8
-    - _Lerp: 0.045
+    - _Interval: 2
+    - _Length: 10
+    - _Lerp: 0
     - _Offset: 0.061
     - _Random: 1
+    - _SHAPETYPE: 1
+    - _SampleCount: 1
+    - _ScaleInterval: 1
+    - _Smooth: 0.5
     - _Speed: 53.11
     - _Vignette: 0.529
     m_Colors:
+    - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _ScreenColor: {r: 0.735849, g: 0.7354147, b: 0.6143645, a: 0}
   m_BuildTextureStacks: []
