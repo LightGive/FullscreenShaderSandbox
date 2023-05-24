@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FullScreenMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 05182c16d3a594e5e80c20f156ece365,
+  m_Shader: {fileID: -6465566751694194690, guid: e7cb4352cca774a08b62d2c2fcd720a5,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -61,6 +61,7 @@ Material:
     - _ScaleInterval: 1
     - _Smooth: 0.5
     - _Speed: 53.11
+    - _Threshold: 0.36
     - _Vignette: 0.529
     m_Colors:
     - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
